@@ -18,3 +18,11 @@ func main() {
 	os.Exit(0)
 }
 ```
+```sh
+~/Development/src/github.com/bzimmer/ngrokc (master) > go run example/main.go                                 
+
+** Make sure the ngrok daemon is running on localhost. **
+
+command_line https://f7d4294e07cb.ngrok.io
+command_line (http) http://f7d4294e07cb.ngrok.io
+```
