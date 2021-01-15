@@ -19,7 +19,7 @@ func main() {
 }
 ```
 ```sh
-~/Development/src/github.com/bzimmer/ngrokc (master) > go run example/main.go                                 
+> go run example/main.go                                 
 
 ** Make sure the ngrok daemon is running on localhost. **
 
