@@ -25,5 +25,5 @@ func (s *TunnelsService) Tunnels(ctx context.Context) ([]*Tunnel, error) {
 	if err != nil {
 		return nil, err
 	}
-	return tunnels.Tunnels, err
+	return tunnels.Tunnels, nil
 }
